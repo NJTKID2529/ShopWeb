@@ -4,6 +4,12 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
 .leftArea{
 	float: left;
 }
@@ -99,6 +105,7 @@
 .shopClass{
 	float: left;
 	width: 190px;
+	position: relative;
 }
 .shopClass h3{
 	font-size: 16px;
@@ -138,17 +145,28 @@
 .shopClass_show{
 	background-color: #4593FD;
 	width: 100%;
+	position: absolute;
+	top: 35px;
+	left: 0px;
 }
 .shopClass_item{
 	padding: 16px 10px;
-}
-.shopClass_item a{
-	font: 14px/1 "微软雅黑","microsoft yahei";
-	color: #fff;
-	font-weight: bold;
+	border-top: #5AA1FE solid 1px;
+	border-bottom: #3487F2 solid 1px;
 }
 .shopClass_item dt{
+	background: url(../img/icon/right.png) right center no-repeat;
+	padding-bottom: 5px;
+}
+.shopClass_item dt a{
+	font: 14px/1 "微软雅黑","microsoft yahei";
+	color: #fff;
 	height: 24px;
+	font-weight: bold;
+}
+.shopClass_item dd a{
+	font: 14px/1 "微软雅黑","microsoft yahei";
+	color: #fff;
 }
 .shopClass_item .aLink{
 	width: 48px;
@@ -159,4 +177,73 @@
 	text-align: center;
 	font-weight: normal;
 	font-size: 12px;
+}
+.shopClass_active/*动态*/{
+	background: #fff;
+	border-left: #4593FD solid 1px;
+}
+.shopClass_active dt{
+	background: none;
+}
+.shopClass_active dt a{
+	color: #000000;
+}
+.shopClass_active dd a{
+	color: #000000;
+}
+.shopClass_active .aLink{
+	color: #fff;
+	text-decoration: none;
+}
+/*shopClass_list弹出的菜单*/
+.shopClass_list{
+	width: 568px;
+	border: #DDDDDD solid 1px;
+	position: absolute;
+	margin-left: 190px;
+	margin-top: 35px;
+}
+.shopList_cont{
+	padding: 0px 20px;
+}
+.shopList_item{
+	padding: 14px 0;
+	border-bottom: #ccc solid 1px;
+}
+.shopList_item dt{
+	height: 24px;
+	color: #4B88DA;
+	font-size: 12px;
+	font-family: "微软雅黑","microsoft yahei";
+	font-weight: bolder;
+	line-height: 24px;
+}
+.shopList_item dd{
+	padding-left: 65px;/*可以用浮动*/
+	margin-top: -24px;
+	line-height: 24px;
+}
+.shopList_item dd a{
+	margin-right: 8px;
+}
+.shopList_links{
+	padding: 15px 0px;
+}
+.shopList_links a{
+	background-color: #2785E6;
+	color: #fff;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	font-family: "微软雅黑","microsoft yahei";
+	padding:0px 10px 0px 8px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.shopList_links span{
+	width: 11px;
+	height: 7px;
+	background: url(../img/icon/right.png) left center no-repeat;
+	margin-left: 8px;
+	display: inline-block;
 }
