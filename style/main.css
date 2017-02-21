@@ -63,6 +63,7 @@
 	font-size: 14px;
 	color: #fff;
 	background-color: #FF8C00;
+	float: left;
 }
 /*shopCar*/
 .shopCar{
@@ -72,6 +73,7 @@
 	margin-top: 23px;
 	margin-right: 59px;
 	background-color: #FF8C00;
+	display: inline;
 }
 .shopText{
 	background: url(../img/icon/shopcar.jpg) 10px center no-repeat;
@@ -148,15 +150,19 @@
 	position: absolute;
 	top: 35px;
 	left: 0px;
+	padding-bottom: 1px;
 }
 .shopClass_item{
-	padding: 16px 10px;
+	padding: 12px 10px;
 	border-top: #5AA1FE solid 1px;
 	border-bottom: #3487F2 solid 1px;
+	line-height: 16px;
 }
 .shopClass_item dt{
+	height: 20px;
 	background: url(../img/icon/right.png) right center no-repeat;
-	padding-bottom: 5px;
+	overflow: hidden;
+	line-height: 1;
 }
 .shopClass_item dt a{
 	font: 14px/1 "微软雅黑","microsoft yahei";
@@ -253,11 +259,11 @@
 }
 .banner_big,.banner_big img{
 	width: 810px;
-	height: 366px;
+	height: 326px;
 }
 .banner_big .imgBox{
 	width: 1620px;
-	height: 366px;
+	height: 326px;
 }
 .banner_sm,.banner_sm img{
 	width: 190px;
@@ -287,7 +293,7 @@
 	position: absolute;
 	width: 100%;
 	left: 0;
-	bottom: 20px;
+	bottom: 15px;
 	text-align: center;
 }
 .imgNum a{
@@ -295,7 +301,8 @@
 	width: 20px;
 	height: 5px;
 	background-color: #fff;
-	margin: 0px 5px;
+	margin: 0px 3px;
+	overflow: hidden;
 }
 .imgNum .active{
 	background-color: #FF7700;
