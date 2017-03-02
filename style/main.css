@@ -515,9 +515,18 @@
 .item{
 	float: left;
 	height: 265px;
+	position: relative;
 }
 .item_cont{
 	padding-left: 15px;
+}
+.hot{
+	position: absolute;
+	background: url(../img/item/hot.jpg) left top no-repeat;
+	width: 50px;
+	height: 50px;
+	right: 0;
+	top: 0;
 }
 .img_item{
 	height: 170px;
@@ -610,8 +619,12 @@
 	color: #1D7AD9;
 }
 .moreTwo{
+	height: 32px;
 	line-height: 32px;
 	float: left;
+	vertical-align: middle;
+	_top:8px;
+	position: relative;
 }
 .moreTwo a{
 	color: #000;
@@ -667,6 +680,7 @@
 .check{
 	position: relative;
 	top: -1px;
+	_top:4px;
 } 
 .check input,.check label{
 	vertical-align: middle;
@@ -675,6 +689,10 @@
 	color: #f00;
 	font-style: normal;
 	font-weight: bold;
+}
+.shop_number {
+	position: relative;
+	_top:4px;
 }
 .addCar{
 	border: #999 solid 1px;
@@ -689,6 +707,65 @@
 .screening_list_more .item{
 	width: 33.3%;
 }
+/*分页*/
+.page{
+	text-align: center;
+	margin-left: 10px;
+	position: relative;
+	z-index: 2;
+}
+.page a{
+	text-decoration: none;
+	border: #CCCCCC solid 1px;
+	padding: 0px 12px;
+	height: 24px;
+	line-height: 24px;
+	display: inline-block;
+	margin: 0 1px;
+	vertical-align: middle;
+	position: relative;
+}
+.page a:hover{
+	background-color: #2266BB;
+	color: #FFFFFF;
+}
+.page span,.page input{
+	vertical-align: middle;
+	position: relative;
+}
+.page .hl{
+	display: inline-block;
+	padding: 0px 12px;
+}
+.morePage{
+	display: inline-block;
+	padding-left: 14px;
+	height: 24px;
+	line-height: 24px;
+}
+.pageNum{
+	height: 24px;
+	line-height: 24px\9;
+	width: 29px;
+	padding: 0px 3px;
+	text-align: center;
+	border: #CCCCCC solid 1px;
+	margin-left: 6px;
+}
+.page_btn{
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	width: 44px;
+	background-color: #E8E8E8;
+	border: #CCCCCC solid 1px;
+}
+.ye{
+	padding: 0 8px 0 6px;
+}
+
+
+
 /*组件*/
 .select{
 	border: #999 solid 1px;
@@ -725,3 +802,4 @@
 .show_select li{
 	padding-left: 10px;
 }
+
