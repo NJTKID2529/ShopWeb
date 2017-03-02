@@ -497,6 +497,31 @@
 	float: left;
 	width: 50%;
 }
+/*同类商品详细*/
+.sameShopItem{
+	height: 80px;
+	width: 153px;
+	padding: 10px 10px 10px 20px;
+	font-size:12px;
+}
+.sameShopItem img,.sameShopItem p{
+	float: left;
+}
+.sameShopItem p{
+	padding-left: 9px;
+	width: 85px;
+	height: 40px;
+	line-height: 20px;
+	padding-top: 5px;
+	overflow: hidden;
+	color: #CCCCCC;
+}
+.sameShopItem span{
+	height: 20px;
+	line-height: 20px;
+	padding-left: 9px;
+	width: 85px;
+}
 /*标题*/
 .products_title{
 	height: 34px;
