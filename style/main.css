@@ -4,6 +4,9 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.grey{
+	background-color: #f0f0f0;
+}
 .hide{
 	display: none;
 }
@@ -431,6 +434,9 @@
 .hr25{
 	height: 25px;
 }
+.hr_45{
+	height: 45px;
+}
 .hr_7{
 	height: 7px;
 	overflow: hidden;
@@ -788,6 +794,369 @@
 .ye{
 	padding: 0 8px 0 6px;
 }
+/*商品介绍*/
+.userPosition{
+	font-size: 0;
+	font-family: verdana;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.userPosition em,
+.userPosition span,
+.userPosition strong,
+.userPosition a{
+	font-size: 12px;
+}
+.userPosition em{
+	font-style: normal;
+}
+.userPosition a:hover{
+	text-decoration: underline;
+}
+.description_info{
+	background-color: #FFFFFF;
+}
+.description{
+	border: #CCCCCC solid 1px;
+}
+.description .leftArea{
+	width: 309px;
+	overflow: hidden;
+}
+.description .rightArea{
+	width: 688px;
+	border-left: #CCCCCC solid 1px;
+	overflow: hidden;
+}
+.description_imgs .big{
+	height: 340px;
+	text-align: center;
+}
+.des_smimg{
+	padding-left: 1px;
+	width: 265px;
+	margin: 0 auto;
+}
+.des_smimg li{
+	float: left;
+	margin-left: -1px;
+}
+.des_smimg img{
+	border: #CCCCCC solid 1px;
+}
+.des_smimg .active{
+	border-color: #317EE7;
+	position: relative;
+}
+.des_content{
+	padding: 10px;
+}
+.des_content .des_content_tit{
+	font: bold 16px/22px "微软雅黑","microsoft yahei";
+	padding: 13px 25px;
+}
+.des_content .dl{
+	margin-bottom: 15px;
+}
+.des_content .dt{
+	width: 75px;
+	float: left;
+	color: #666;
+	text-indent: 17px;
+	line-height: 25px;
+	height: 25px;
+}
+.des_content .dd{
+	padding-left: 75px;
+	*padding-left: 0;
+}
+.des_money{
+	font-size: 18px;
+	color: #F30;
+	font-family: verdana;
+	line-height: 25px;
+}
+.des_money em{
+	font-style: normal;
+	font-size: 12px;
+}
+/*换购*/
+.hg{
+	padding-top: 4px;
+	display: inline-block;
+}
+.hg em{
+	font-style: normal;
+	line-height: 17px;
+	float: left;
+}
+.hg_icon{
+	width: 55px;
+	height: 18px;
+	display: inline-block;
+	font-style: normal;
+	color: #FFFFFF;
+	background: url(../img/icon/hg_icon.jpg) left top no-repeat;
+	text-indent: 16px;
+	line-height: 18px;
+	margin-right: 10px;
+	float: left;
+}
+/*送货*/
+.detailBac{
+	background-color: #f2f2f2;
+	width: 670px;
+	height: 100%;
+}
+.des_position{
+	padding: 20px 0 0 0;
+}
+.theGoods{
+	line-height: 24px;
+	padding-left: 10px;
+}
+.des_item{
+	color: #666666;
+	padding: 9px 10px;
+	border: #CCCCCC solid 1px;
+	float: left;
+	background-color: #FFFFFF;
+	margin-right: 10px;
+}
+.des_item_active{
+	border-color: #317EE7;
+	color: #333;
+}
+.des_item_sm{
+	padding: 3px 7px;
+	margin-bottom: 8px;
+}
+.des_content .des_select_more{
+	line-height: 55px;
+}
+/*数量*/
+.des_number{
+	border: #B2B2B2 solid 1px;
+	height: 32px;
+	width: 82px;
+	float: left;
+}
+.des_number div{
+	height: 100%;
+	float: left;
+}
+.reduction,.plus{
+	width: 15px;
+	background: url(../img/numadrdu.jpg) left top no-repeat;
+	line-height: 32px;
+	text-align: center;
+	color: #333333;
+}
+.reduction{
+	border-right: #CCCCCC solid 1px;
+}
+.plus{
+	border-left: #CCCCCC solid 1px;;
+}
+.des_input{
+	width: 42px;
+	background: url(../img/numbac.jpg) left top no-repeat;
+	padding: 0 4px;
+	overflow: hidden;
+}
+.des_input input{
+	width: 100%;
+	height: 32px;
+	line-height: 32px\9;
+	text-align: center;
+}
+.xg{
+	line-height: 32px;
+	float: left;
+	padding-left: 10px ;
+	color: #656565;
+}
+.xg em{
+	color: #FB7700;
+	font-style: normal;
+	font-weight: bold;
+}
+.des_content .des_num{
+	line-height: 32px;
+}
+/*已选择*/
+.des_select{
+	text-indent: 27px;
+	color: #666666;
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	margin: 12px 0 12px;
+}
+.des_select span{
+	color: #0479CA;
+	padding-left: 15px;
+}
+/*购物车购买*/
+.shop_buy{
+	height: 90px;
+	width: 595px;
+	margin-left: 10px;
+	padding-left: 75px;
+	margin-top: 12px;
+}
+.buy_car,.buy_now{
+	background: url(../img/carBac.jpg) left top no-repeat;
+	width: 184px;
+	height: 48px;
+	float: left;
+	margin-top: 20px;
+}
+.big_car{
+	background: url(../img/icon/shopcar.jpg) left top no-repeat;
+	width: 23px;
+	height: 20px;
+	float: left;
+	margin: 13px 13px 15px 30px;
+	background-color: red;
+	*margin-left: 13px;
+}
+.car_txt{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-top: 13px;
+}
+.line{
+	height: 90px;
+	width: 1px;
+	display: inline-block;
+	background-color: #E5E5E5;
+	margin: 0 40px;
+	float: left;
+	overflow: hidden;
+}
+.notes{
+	color: #999999;
+	text-indent: 27px;
+	margin: 10px 0;
+}
+/*产品介绍*/
+.des_info .leftArea{
+	width: 190px;
+}
+.des_info .rightArea{
+	width: 790px;
+}
+.recommend{
+	border: #CCCCCC solid 1px;
+	background-color: #FFFFFF;
+}
+.recommend .tit{
+	height: 39px;
+	border-top: #1D86CF solid 2px;
+	border-bottom: #CCCCCC solid 1px;
+	line-height: 39px;
+	text-indent: 15px;
+	font-size: 14px;
+	background-color: #F3F3F3;
+	overflow: hidden;
+}
+.recommend .item{
+	float: none;
+	height: auto;
+}
+.recommend .money{
+	padding-top: 0;
+}
+.recommend .item_cont{
+	padding-left: 0;
+}
+.recommend .item_cont p{
+	width: 150px;
+	padding-left: 20px;
+}
+.recommend .img_item{
+	height: 160px;
+}
+/*详细介绍*/
+.des_infoContent{
+	border: #CCCCCC solid 1px;
+	background-color: #FFFFFF;
+}
+.des_tit{
+	height: 39px;
+	border-bottom: #CCCCCC solid 1px;
+	background: url(../img/icon/title_bac.jpg) left center repeat-x;
+}
+.des_tit li{
+	float: left;
+	width: 50%;
+	font: 14px/39px "宋体";
+	text-align: center;
+	border-left: #CCCCCC solid 1px;
+	margin-left: -1px;
+}
+.des_tit .active{
+	background-color: #0479CA;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.des_tit .intro{
+	background: url(../img/icon/intro.png) left center no-repeat;
+	padding-left: 32px;
+	line-height: 39px;
+	display: inline-block;
+}
+.des_tit .recom{
+	background: url(../img/icon/recom.png) left center no-repeat;
+	padding-left: 32px;
+	line-height: 39px;
+	display: inline-block;
+}
+.ad{
+	padding: 30px 0;
+	text-align: center;
+}
+.info_text{
+	padding: 0 20px;
+}
+.info_tit{
+	height: 26px;
+	border-bottom: #CCCCCC solid 1px;
+	font-family: "微软雅黑","microsoft yahei";
+}
+.info_tit h3{
+	float: left;
+	font-size: 16px;
+	color: #2357A5;
+	border-bottom: #2357A5 solid 1px;
+	height: 26px;
+	margin-bottom: -1px;
+	position: relative;
+	padding-right: 8px;
+}
+.info_tit h4{
+	font-size: 12px;
+	line-height: 26px;
+	padding-left: 4px;
+	color: #656565;
+}
+.info_text p{
+	line-height: 22px;
+	font-size: 14px;
+	color: #656565;
+}
+.imgCenter{
+	text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
