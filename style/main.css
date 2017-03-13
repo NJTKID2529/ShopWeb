@@ -1665,23 +1665,141 @@
 .cart_tel,.input{
 	vertical-align: middle;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*登录*/
+.login_logo .comWidth{
+	width: 630px;
+}
+.login_logo .logo{
+	margin-left: 60px;
+}
+.welcome_title,.welcome_reg{
+	font: 22px/85px "微软雅黑","microsoft yahei";
+	color: #FFFFFF;
+	float: left;
+	padding-left: 24px;
+}
+.loginBox,.regBox{
+	position: relative;
+	width: 458px;
+	border: #999999 solid 1px;
+	margin: 10px auto;
+}
+.login_cont,.reg_cont{
+	padding: 15px 80px;
+}
+.l_tit{
+	color: #666666;
+	line-height: 20px;
+}
+.login_input{
+	border: #999999 solid 1px;
+	height: 32px;
+	line-height: 32px\9;
+	padding: 0 5px;
+	text-indent: 5px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.user_icon{
+	position: relative;
+	top:-25px;
+	float: right;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(../img/icon/user_item.jpg) right center no-repeat;
+}
+.mb_10{
+	margin-bottom: 10px;
+}
+.pass_icon{
+	position: relative;
+	top:-25px;
+	float: right;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(../img/icon/pass_icon.jpg) right center no-repeat;
+}
+.autoLogin{
+	padding-top: 27px;
+	padding-bottom: 28px;
+}
+.checked{
+	position: relative;
+	top: 3px;
+	margin-right: 3px;
+}
+.login_btn{
+	background: url(../img/login_btn_bac.jpg) left top repeat-x;
+	color: #606060;
+	width: 309px;
+	height: 36px;
+	border: #CCCCCC solid 1px;
+}
+.login_partners{
+	padding-top: 34px;
+}
+.login_list li{
+	float: left;
+	line-height: 20px;
+}
+.login_list span{
+	color: #999999;
+	margin: 0 2px;
+}
+.reg_link{
+	width: 115px;
+	height: 31px;
+	background: url(../img/reg_bac.jpg) left center repeat-x;
+	display: inline-block;
+	position: absolute;
+	right: 31px;
+	text-align: center;
+	line-height: 31px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+/*注册*/
+.reg_logo .comWidth{
+	width: 630px;
+}
+.regBox{
+	width: 628px;
+	margin: 10px auto;
+	border: #CCCCCC solid 1px;
+}
+.reg_item{
+	font: 14px/34px "宋体";
+	width: 110px;
+	text-align: right;
+	float: left;
+}
+.reg_item i{
+	color: red;
+	font-style: normal;
+	margin-right: 5px;
+}
+.input_item{
+	width: 270px;
+	float: left;
+}
+.regBox li{
+	height: 70px;
+	vertical-align: top;
+	text-align: center;
+}
+.reg_btn{
+	background: url(../img/login_btn_bac.jpg) left top repeat-x;
+	color: #606060;
+	width: 309px;
+	height: 36px;
+	border: #CCCCCC solid 1px;
+	text-align: center;
+}
+.cb{
+	text-align: left;
+}
 /*组件*/
 .select{
 	border: #999 solid 1px;
